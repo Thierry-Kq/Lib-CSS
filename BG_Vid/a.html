@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+
+
+
+<div class="container">
+  
+  <video autoplay loop>
+    <source type="video/mp4" src="http://blucube.net/stuff/codepen-assets/html5vid/beepl-pink-vynil.mp4">
+    <source type="video/webm" src="http://blucube.net/stuff/codepen-assets/html5vid/beepl-pink-vynil.webm">
+    <source type="video/ogg" src="http://blucube.net/stuff/codepen-assets/html5vid/beepl-pink-vynil.ogv">
+  </video>
+  
+  <div class="overlay">
+    <h1>Emulating background-size: cover for HTML5 video</h1>
+    <p>It's a shame that there is no native way to make a video behave in the same way as a background with size set to &ldquo;cover&rdquo;, especially when we&rsquo;re using video for backgrounds in responsive layouts.</p>
+    <p>There are plenty of plugins that will do this for you but it&rsquo;s pretty easy using JavaScript (or jQuery in this example for laziness). Just make the video element keep it&rsquo;s aspect ratio and scale to fit the parent container, hiding the overflow.</p>
+    <p>You can even set &ldquo;focus&rdquo; on a particular area of the video when it appears cropped using top and left percentages, just as you might for an image background using &ldquo;cover&rdquo; and &ldquo;background-position&rdquo;.</p>
+    <p>Example video: <a href="https://vimeo.com/channels/beeple/87099002">Pink Vynil by Beeple</a></p>
+  </div>
+  
+</div>
+
+
+
+
+</body>
+</html>
