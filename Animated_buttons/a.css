@@ -191,6 +191,7 @@ a.animated-button.sandy-three:after {
   -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
   transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  background-color: red;
 }
 a.animated-button.sandy-three:hover:after {
   height: 400% !important;
